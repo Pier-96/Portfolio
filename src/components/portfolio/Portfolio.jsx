@@ -1,9 +1,10 @@
 import React from 'react';
 import './portfolio.css';
 
-function Portfolio() {
+const Portfolio = () => {
   return (
-    <div>Portfolio</div>
+    <section id="portfolio">Portfolio
+    </section>
   )
 }
 
