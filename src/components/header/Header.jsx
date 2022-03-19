@@ -19,7 +19,7 @@ function Header() {
           <img src={SALCHAS} alt="salchas"/>
         </div>
 
-        <a href="contact" className="scroll__down">Scroll Down</a>
+        <a href="#about" className="scroll__down">Scroll Down</a>
 
       </div>
     </header>

@@ -35,18 +35,19 @@ const Contact = () => {
           </article>
 
           <article className="contact__option">
+            <SiWhatsapp className="contact__option-icon" />
+            <h4>WhatsApp</h4>
+            <h5>+34 677 60 66 22</h5>
+            <a href="https://api.whatsapp.com/send?phone=34677606622" target="_blank">Send a message </a>
+          </article>
+
+          <article className="contact__option">
             <BsLinkedin className="contact__option-icon"/>
             <h4>Linkedin</h4>
             <h5>Piero Olivares</h5>
             <a href="https://www.linkedin.com/in/piero-olivares/" target="_blank">Send a message </a>
           </article>
 
-          <article className="contact__option">
-            <SiWhatsapp className="contact__option-icon"/>
-            <h4>WhatsApp</h4>
-            <h5>+34 677 60 66 22</h5>
-            <a href="https://api.whatsapp.com/send?phone=34677606622" target="_blank">Send a message </a>
-          </article>
         </div>
         <form ref={form} onSubmit={sendEmail}>
           <input type="text" name="name" placeholder="Your full name" required />

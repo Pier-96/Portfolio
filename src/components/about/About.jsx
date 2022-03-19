@@ -40,7 +40,7 @@ const About = () => {
           </article>
         </div>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima dolor magni dignissimos iste accusantium, placeat voluptas mollitia. In blanditiis magni magnam architecto non aut, ratione dignissimos, tenetur optio, quia explicabo!
+            Desarrollador web dedicado en busca de un proyecto para aplicar mi experiencia y conocimientos. Acabo de terminar un Bootcamp de desarrollo web en Le Wagon y ahora estoy buscando oportunidades para aprender, desarrollarme y progresar en mi carrera.
         </p>
 
         <a href="#contact" className="btn btn-primary">Let's Talk</a>
